@@ -13,10 +13,7 @@ html, body {
 .rco-link {
 	font-size: 160%;
 	color: #262626;
-	/*padding: 36px 0 0 48px;*/
-
 }
-
 .rco-link a {
   display: inline-block;
   margin: 0 0.2em;
@@ -25,25 +22,19 @@ html, body {
   border-radius: 2px;
   transition: all 0.3s ease-out;
 	box-shadow: 0 1px 4px rgba(0,0,0,0.40);
-
-
   font-weight: 400;
   color: white;
 }
-
 .rco-link a:hover   { background: #2e7aaf; }
-
-
 
 #wrapper{
 	position:relative;
 	width: 763px;
   height: 429px;
-	margin: 36px auto 48px auto;
+	margin: 36px auto;
 }
 #map{
 	position:absolute;
-	/*margin-left: -2px;*/
 	width: 763px;
   height: 429px;
   display: inline-block;
@@ -142,7 +133,7 @@ html, body {
 	border-radius: 3px
 }
 #arc-logo{
-	margin: 12px 0 8px 36px;
+	margin: 12px 0 0 36px;
 	height: 70px;
 }
 
