@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nepal Stories</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <img id="arc-logo" src="img/redcross-logo.png" />
+
+    <div class="row">
+    <div id="wrapper">
+
+      <div id="map-title">Stories from Nepal<br><small> Three months on</small></div>
+      <img id="ifrc-logo" src="img/ifrc-cobranding.png" />
+      <div id="attribution">Produced by SIMS supported by American Red Cross and British Red Cross</div>
+      <button class="btn btn-xs btn-custom btn-custom-note disabled">
+        Click a person's photo to read their story.
+      </button>
+
+      <div id="info">
+          <div id="dismiss" class="pull-right"><span class="glyphicon glyphicon-remove"></span></div>
+          <div class="text">
+            <h4 id="info-header"><span id="info-name"></span> &nbsp;<small><span id="info-title"></span></small></h4>
+            <img id="info-pic" class="pull-left img-rounded" src="" />
+            <div id="overflow-box">
+              <h4 id="info-location"><small>A story from <span></span>.</small></h4>
+              <div id="info-blurb"></div>
+              <h5 id="info-more"><small>Related: <a id="info-link" href="" target="_blank"><span id="info-link-title"></span></a> on ifrc.org</small></h5>
+            </div>
+          </div>
+      </div>
+      <div id="custom-marker-pane"></div>
+      <div id="map-container"></div>
+    </div>
+
+    <div class="rco-link pull-right">Read more at <a href="http://www.redcross.org/what-we-do/international-services/where-we-help/asia/nepal">redcross.org/nepal</a></div>
+
+    </div>
+
+
+    </div>
+
+    <script type="text/javascript" src="js/nepal.js"></script>
+    <script type="text/javascript" src="js/stories.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/d3.min.js"></script> <!-- v3.5.2 -->
+    <script type="text/javascript" src="js/topojson.v1.min.js"></script>
+    <script type="text/javascript" src="js/fitProjection.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+  </body>
+</html>
